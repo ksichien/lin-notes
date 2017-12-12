@@ -1,0 +1,3 @@
+username=backup.user
+password=P@ssword
+domain=vandelayindustries.com
