@@ -1,13 +1,13 @@
 #!/bin/bash
-REMOTEFOLDER="//dc1.internal.vandelayindustries.com/veeam-backups"
-REMOTECREDS="/root/win-creds.txt"
-LOCALMOUNT="/mnt/win-backups"
+REMOTEFOLDER='//dc1.internal.vandelayindustries.com/veeam-backups'
+REMOTECREDS='/root/win-creds.txt'
+LOCALMOUNT='/mnt/win-backups'
 
-BACKUPJOB="Backup Job dc1"
+BACKUPJOB='Backup Job dc1'
 
-LOCALFOLDERDAILY="/srv/rsync/backups/dc1/daily-backups"
-LOCALFOLDERWEEKLY="/srv/rsync/backups/dc1/weekly-backups"
-LOCALFOLDERMONTHLY="/srv/rsync/backups/dc1/monthly-backups"
+LOCALFOLDERDAILY='/srv/rsync/backups/dc1/daily-backups'
+LOCALFOLDERWEEKLY='/srv/rsync/backups/dc1/weekly-backups'
+LOCALFOLDERMONTHLY='/srv/rsync/backups/dc1/monthly-backups'
 
 DAILYLIMIT=7
 WEEKLYLIMIT=31
