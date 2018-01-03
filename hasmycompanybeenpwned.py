@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This script will retrieve all mail addresses with the ldap module.
+This script will retrieve all company email addresses with the ldap module.
 Afterwards, it will check them one by one for breaches at https://haveibeenpwned.com/
 """
 import json
