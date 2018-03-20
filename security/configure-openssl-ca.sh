@@ -1,6 +1,5 @@
 #!/bin/bash
 # https://networklessons.com/uncategorized/openssl-certification-authority-ca-ubuntu-server/
-# declare variables
 CA_DIR='/root/ca'
 COUNTRY='DE'
 STATE='Berlin'
